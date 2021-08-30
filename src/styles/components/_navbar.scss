@@ -1,0 +1,41 @@
+
+
+._header{
+    width: 100%;
+    height: 70px;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $dark_bot;
+}
+
+._header h1{
+    font-size: 40px;
+    color: white;
+}
+
+// UL;
+._navbar-link{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+// LINK
+._links{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    transition: color 300ms;
+
+    &:hover{
+        color: lightsteelblue;
+    }
+}
+
+
